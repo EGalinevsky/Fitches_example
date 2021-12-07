@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
 const DropDownItem = (props) => {
-    const [activeMenu, setActiveMenu] = useState('main')
-
+    // const [activeMenu, setActiveMenu] = useState('main')
+    console.log(props.goToMenu)
     return (
-        <a href="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+        <a href="#" className="menu-item" onClick={() => props.goToMenu && props.setActiveMenu(props.goToMenu)}>
             <span className="icon-button">
                 {props.leftIcon}
             </span>

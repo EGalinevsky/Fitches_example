@@ -17,10 +17,6 @@ function App() {
 
         <NavItem icon={<CaretIcon />}>
           <DropDownMenu />
-          <p>
-            Hello
-          </p>
-
         </NavItem>
       </Navbar>
     </>

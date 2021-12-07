@@ -46,6 +46,7 @@ a {
   height: 100%;
   display: flex;
   justify-content: flex-end;  
+  align-items: center;
 }
 
 .nav-item{
@@ -63,7 +64,7 @@ a {
   width: 32px;
   height: 32px;
   padding: 5px;
-  margin: 2px;
+  margin: 2px 10px 2px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
