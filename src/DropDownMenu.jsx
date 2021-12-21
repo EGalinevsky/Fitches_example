@@ -22,8 +22,7 @@ const DropDownMenu = () => {
                 in={activeMenu === 'main'}
                 unmountOnExit
                 timeout={500}
-                classNames='menu-primary'
-            // onEnter={calcHeight}
+                classNames='menu-primary'/*  */
             >
                 <div className="menu">
 
@@ -35,7 +34,7 @@ const DropDownMenu = () => {
                         rightIcon={<ChevronIcon />}
                         goToMenu="settings"
                         setActiveMenu={setActiveMenu}>
-                        Settings
+                        Settings111
                     </DropDownItem>
                 </div>
 
