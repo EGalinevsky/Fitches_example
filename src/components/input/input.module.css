@@ -1,0 +1,46 @@
+.block_input{
+    display: block;  
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    /* justify-content: center; */
+}
+
+.input_text{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    transition: width .2s ease-in;
+}
+
+.input_text:focus{
+    border-bottom: 2px solid red;
+    width: 300px;
+}
+
+.btnSend{
+    background: #fff;
+    padding: 5px 10px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-bottom: 2px solid rgb(255, 111, 111);
+    transition: background .2s ease-in, color .2s ease-in;
+    cursor: pointer;
+}
+
+.btnSend:hover{
+    background: rgb(255, 0, 0);
+    color: cornsilk;
+}
+
+.list__item{
+    width: 50%;
+    margin: 20px auto;
+}
+

@@ -1,0 +1,14 @@
+.list{
+    cursor: pointer;
+    padding: 5px;
+}
+
+.list:nth-child(2n){
+    background: #95dbe780;
+}
+
+.todoList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
