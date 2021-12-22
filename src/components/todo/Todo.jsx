@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import s from '../todo/todo.module.css'
 
-const Todo = ({ todo }) => {
-    const data = new Date().toISOString().slice(0, 10)
-    console.log(data)
+const Todo = ({ title, date, id, checked }) => {
+    const [check, setCheck] = useState(checked)
+    // const data = new Date().toISOString().slice(0, 10)
+    // console.log(data)
+    // console.log(check)
     return (
-        <div className={s.todoList}>
-            <li onClick={(e) => console.log(todo)} className={s.list} >
-                {todo}
+        <div onClick={() => setCheck(!check)} className={s.todoList}>
+            <li onClick={(e) => console.log(title)} className={s.list} >
+                {title}
             </li>
             <p>
-                {data}
+                {date}
             </p>
-            <input type='checkbox' name="" onChange={(e) => console.log(e.target.value)} id="" />
+            <input type='checkbox' name="" checked={check} onChange={(e) => setCheck(!check)} id="" />
 
         </div>
     )

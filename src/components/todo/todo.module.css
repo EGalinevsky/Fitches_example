@@ -1,5 +1,4 @@
 .list{
-    cursor: pointer;
     padding: 5px;
 }
 
@@ -9,6 +8,7 @@
 
 .todoList{
     display: flex;
+    cursor: pointer;
     justify-content: space-around;
     align-items: center;
 }

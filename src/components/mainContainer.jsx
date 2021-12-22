@@ -11,6 +11,7 @@ const MainContainer = () => {
     return (
         <div>
             <Input />
+
             <Button text={textFirst} />
             <Button text={textSecond} />
             <Button text={textThird} />
