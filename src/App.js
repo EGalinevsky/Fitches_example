@@ -14,7 +14,7 @@ function App() {
         <NavItem icon={<PlusIcon />} />
         <NavItem icon={<BellIcon />} />
         <NavItem icon={<MessengerIcon />} />
-
+        1
         <NavItem icon={<CaretIcon />}>
           <DropDownMenu />
         </NavItem>
